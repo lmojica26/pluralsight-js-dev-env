@@ -22,12 +22,10 @@ app.get('/', function(req, res){
 app.get('/users', function(req, res){
  //hard coding
  res.json([
-   {"id": 1, "firstName":"Bob", "lastName":"Smith", "email":"bob@gmail.com"},
-   {"id": 2, "firstName":"Tammy", "lastName":"Norton", "email":"tnorton@gmail.com"},
-   {"id": 3, "firstName":"Tine", "lastName":"Lee", "email":"tina@gmail.com"},
+   {"id": 1, "firstName":"Bob","lastName":"Smith","email":"bob@gmail.com"},
+   {"id": 2, "firstName":"Tammy","lastName":"Norton","email":"tnorton@gmail.com"},
+   {"id": 3, "firstName":"Tine","lastName":"Lee","email":"tina@gmail.com"},
  ]);
-
-
 });
 
 app.listen(port, function(err) {
