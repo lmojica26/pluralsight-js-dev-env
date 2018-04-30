@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 32004944,
+      "firstName": "Judy",
+      "lastName": "Skiles",
+      "email": "Stella_Kris70@hotmail.com"
+    },
+    {
+      "id": 35039237,
+      "firstName": "Corbin",
+      "lastName": "Denesik",
+      "email": "Mortimer78@gmail.com"
+    },
+    {
+      "id": 12731354,
+      "firstName": "Faustino",
+      "lastName": "Turner",
+      "email": "Otilia.Ortiz@hotmail.com"
+    },
+    {
+      "id": 89003418,
+      "firstName": "Tina",
+      "lastName": "Hills",
+      "email": "Gerhard.Bins9@gmail.com"
+    }
+  ]
+}
