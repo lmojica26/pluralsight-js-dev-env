@@ -13,7 +13,7 @@ app.use(express.static('dist'));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
-
+/*
 app.get('/users', function(req, res){
  //hard coding for simplicity. Pretend this hits a real database
  res.json([
@@ -21,7 +21,8 @@ app.get('/users', function(req, res){
    {"id": 2, "firstName":"Tammy","lastName":"Norton","email":"tnorton@gmail.com"},
    {"id": 3, "firstName":"Tine","lastName":"Lee","email":"tina@gmail.com"},
  ]);
-});
+
+}); */
 
 app.listen(port, function(err) {
   if (err) {
